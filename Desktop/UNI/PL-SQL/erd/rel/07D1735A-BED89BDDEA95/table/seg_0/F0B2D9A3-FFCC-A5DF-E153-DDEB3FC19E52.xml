@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0B2D9A3-FFCC-A5DF-E153-DDEB3FC19E52" schemaObject="96646F3B-033E-E100-F92A-A5B664134377" name="CUSTOMERS">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CUSTOMERS</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:29 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="FD9B7584-9930-AE60-B600-7252D8B1C02E">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="2306783A-3F0F-1E88-B78A-B987EF724157">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION" id="A5AB4CC5-561B-AD0C-7C74-C7D17676E42A">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>REGION</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF9B27A0-FA66-20B0-E851-76200872F055" schemaObject="96646F3B-033E-E100-F92A-A5B664134377" name="CUSTOMERS_PK">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007437</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:31 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD9B7584-9930-AE60-B600-7252D8B1C02E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

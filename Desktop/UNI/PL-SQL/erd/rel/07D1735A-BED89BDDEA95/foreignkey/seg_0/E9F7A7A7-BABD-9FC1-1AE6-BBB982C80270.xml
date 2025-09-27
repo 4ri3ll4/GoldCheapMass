@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9F7A7A7-BABD-9FC1-1AE6-BBB982C80270" containerWithKeyObject="3554E53D-727C-77F0-5715-F1D929375133" localFKIndex="3D655BC6-E9A6-7A55-71C6-B6658B4D4AFD" name="SYS_C007439">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007439</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:33 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>SYSTEM.CUSTOMERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0B2D9A3-FFCC-A5DF-E153-DDEB3FC19E52</referredTableID>
+<keyObject>EF9B27A0-FA66-20B0-E851-76200872F055</keyObject>
+<referredKeyID>EF9B27A0-FA66-20B0-E851-76200872F055</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CUSTOMER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

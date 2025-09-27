@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="E1417CF6-CF6E-82CE-6E6F-10E76679AB4B">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjName>SYSTEM</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:28 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<schemaObject>96646F3B-033E-E100-F92A-A5B664134377</schemaObject>
+</UserOraclev10g>

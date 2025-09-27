@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10DD85C9-8D57-E7DC-F902-EC38ED64109D" schemaObject="96646F3B-033E-E100-F92A-A5B664134377" name="TRANSACTIONS">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TRANSACTIONS</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:29 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANSACTION_ID" id="10B2F20D-E9B3-0ADB-B042-BB0A6A7735A5">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>TRANSACTIONS</sourceObjSchema>
+<sourceObjName>TRANSACTION_ID</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_ID" id="10B620E9-3692-DA4C-11B7-575F7C052D00">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>TRANSACTIONS</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B278A13E-B7F7-39A7-DB10-1B159EA952BB" referredColumn="76DAC7CE-F9F6-9D22-AA2D-D6C07FF380E8"/>
+</associations>
+</Column>
+<Column name="TRANSACTION_DATE" id="C7332352-39C3-950A-EFCC-F1FFF651DF97">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>TRANSACTIONS</sourceObjSchema>
+<sourceObjName>TRANSACTION_DATE</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="B4544EFC-A81E-7F4B-5D9F-258F37A6CD95">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>TRANSACTIONS</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E894331-48A5-16DF-EA27-080486E1DD8D" schemaObject="96646F3B-033E-E100-F92A-A5B664134377" name="TRANSACTIONS_PK">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007440</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:31 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10B2F20D-E9B3-0ADB-B042-BB0A6A7735A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D699351E-EBD9-F5FF-7422-0EC180AF3AAD" name="SYS_C007441">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:33 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10B620E9-3692-DA4C-11B7-575F7C052D00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

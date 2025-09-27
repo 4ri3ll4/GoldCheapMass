@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3554E53D-727C-77F0-5715-F1D929375133" schemaObject="96646F3B-033E-E100-F92A-A5B664134377" name="ACCOUNTS">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>ACCOUNTS</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:29 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_ID" id="76DAC7CE-F9F6-9D22-AA2D-D6C07FF380E8">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ID" id="4B7E8405-E8F2-F96B-2B27-B56F5B32D5B6">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>ACCOUNTS</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9F7A7A7-BABD-9FC1-1AE6-BBB982C80270" referredColumn="FD9B7584-9930-AE60-B600-7252D8B1C02E"/>
+</associations>
+</Column>
+<Column name="ACCOUNT_TYPE" id="ED975B57-7F4B-7AC9-F671-F7874BEDCC82">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOUNT_TYPE</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C06F1FB6-4870-8219-423C-AF6C8F3797DE" schemaObject="96646F3B-033E-E100-F92A-A5B664134377" name="ACCOUNTS_PK">
+<sourceConnName>plsql_db</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007438</sourceObjName>
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:30 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76DAC7CE-F9F6-9D22-AA2D-D6C07FF380E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D655BC6-E9A6-7A55-71C6-B6658B4D4AFD" name="SYS_C007439">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-27 20:02:33 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B7E8405-E8F2-F96B-2B27-B56F5B32D5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
